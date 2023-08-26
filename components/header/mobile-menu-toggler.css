@@ -1,0 +1,38 @@
+#mobile-menu-toggler {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+}
+
+#mobile-menu-toggler > div {
+  height: 0.15rem;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  transition: rotate, width;
+  transition: 0.75s;
+}
+
+#mobile-menu-toggler .top {
+  top: 0.5rem;
+  width: 50%;
+}
+
+#mobile-menu-toggler .bottom {
+  top: 1rem;
+  width: 100%;
+}
+
+#main-header[data-show="true"] #mobile-menu-toggler > div {
+  top: 0.75rem;
+  width: 100%;
+  height: 0.175rem;
+}
+
+#main-header[data-show="true"] #mobile-menu-toggler .bottom {
+  rotate: -45deg;
+}
+
+#main-header[data-show="true"] #mobile-menu-toggler .top {
+  rotate: 45deg;
+}

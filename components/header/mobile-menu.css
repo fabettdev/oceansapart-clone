@@ -1,0 +1,17 @@
+#mobile-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-color: black;
+  transition: translate 0.75s;
+}
+
+#main-header[data-show="false"] #mobile-menu {
+  translate: calc(-100%);
+}
+
+#main-header[data-show="true"] #mobile-menu {
+  translate: calc(0);
+}

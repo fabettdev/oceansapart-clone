@@ -5,7 +5,7 @@ import TopMenu from "./TopMenu";
 
 export default function Header(): React.ReactElement {
   return (
-    <header>
+    <header id="main-header" data-show="false">
       <TopMenu />
       <MainMenu />
     </header>

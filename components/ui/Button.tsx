@@ -1,3 +1,4 @@
+"use client";
 import "./button.css";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {

@@ -1,2 +1,6 @@
 @import url("../styles/reset.css");
 @import url("../styles/variables.css");
+
+a {
+  color: #000;
+}
