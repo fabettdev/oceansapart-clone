@@ -4,7 +4,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   label: string;
 }
 
-export function Button({
+export default function Button({
   label,
   className,
   ...props

@@ -2,8 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Snipes Clone",
-  description: "Snipes Clone Made By Fabettdev",
+  title: "OCEANSAPART Clone",
+  description: "OCEANSAPART Clone Made By Fabettdev",
 };
 
 interface RootLayoutProps {
