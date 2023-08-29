@@ -1,0 +1,26 @@
+.mobile-menu-item {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.mobile-menu-item .image::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000040;
+  z-index: 1;
+}
+
+.mobile-menu-item .anchor {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 600;
+  z-index: 10;
+}

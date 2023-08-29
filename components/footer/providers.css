@@ -1,0 +1,19 @@
+#providers {
+  background-color: var(--grey);
+  margin-bottom: 2.5rem;
+}
+
+#providers .providers-container {
+  display: flex;
+}
+
+#providers .providers-container > * {
+  margin: 0 auto;
+  min-width: 3rem;
+  max-width: 7.5rem;
+  padding-inline: 0.5rem;
+}
+
+#providers .provider {
+  filter: grayscale(1);
+}

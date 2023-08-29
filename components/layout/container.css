@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+  max-width: 90rem;
+  padding-inline: 0.625rem;
+}
+
+.container.small {
+  max-width: 70rem;
+  padding-inline: 1.25rem;
+}

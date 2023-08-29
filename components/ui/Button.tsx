@@ -11,7 +11,7 @@ export default function Button({
   ...props
 }: ButtonProps): React.ReactElement {
   return (
-    <button className={`button ${className}`} {...props}>
+    <button className={`button ${className ?? ""}`} {...props}>
       {label}
     </button>
   );

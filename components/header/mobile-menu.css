@@ -4,8 +4,9 @@
   left: 0;
   right: 0;
   height: 100vh;
-  background-color: black;
+  background-color: #fff;
   transition: translate 0.75s;
+  padding: 0.625rem 1.25rem 4.0625rem;
 }
 
 #main-header[data-show="false"] #mobile-menu {
