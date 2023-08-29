@@ -1,0 +1,41 @@
+.footer-menu-list .title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footer-menu-list.row .title {
+  display: none;
+}
+
+.footer-menu-list li {
+  font-size: 0.865rem;
+  margin-bottom: 0.865rem;
+}
+
+.footer-menu-list li:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer-menu-list.row ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-menu-list.row ul a {
+  color: var(--text-grey);
+}
+
+@media screen and (min-width: 992px) {
+  .footer-menu-list.row .title {
+    display: block;
+  }
+
+  .footer-menu-list.row ul {
+    display: block;
+    gap: 1.5rem;
+  }
+
+  .footer-menu-list.row ul a {
+    color: inherit;
+  }
+}

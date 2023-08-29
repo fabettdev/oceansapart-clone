@@ -1,12 +1,21 @@
 @import url("../styles/reset.css");
 @import url("../styles/variables.css");
 
+body {
+  color: var(--text);
+}
+
 a {
-  color: #000;
+  color: var(--text);
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--brand);
 }
 
 img {
-  display: inline-block;
+  display: block;
   max-width: 100%;
   height: auto;
 }

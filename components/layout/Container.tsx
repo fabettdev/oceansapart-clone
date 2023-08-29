@@ -1,11 +1,14 @@
 import "./container.css";
 
-export default function Container({
-  children,
-  small,
-}: {
+interface ContainerProps {
   children: React.ReactNode;
   small?: boolean;
-}): React.ReactElement {
-  return <div className={`container${small ? " small" : ""}`}>{children}</div>;
+}
+
+export default function Container(props: ContainerProps): React.ReactElement {
+  return (
+    <div className={`container${props.small ? " small" : ""}`}>
+      {props.children}
+    </div>
+  );
 }

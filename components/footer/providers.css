@@ -5,13 +5,13 @@
 
 #providers .providers-container {
   display: flex;
+  gap: 0.5rem;
 }
 
 #providers .providers-container > * {
   margin: 0 auto;
   min-width: 3rem;
   max-width: 7.5rem;
-  padding-inline: 0.5rem;
 }
 
 #providers .provider {

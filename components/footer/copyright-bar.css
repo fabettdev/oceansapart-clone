@@ -1,0 +1,12 @@
+#copyright-bar {
+  text-align: center;
+  color: var(--text-grey);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  #copyright-bar {
+    font-size: 1.1rem;
+  }
+}

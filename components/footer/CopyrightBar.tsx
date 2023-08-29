@@ -1,3 +1,5 @@
+import "./copyright-bar.css";
+
 export default function CopyrightBar(): React.ReactElement {
-  return <section>CopyrightBar</section>;
+  return <section id="copyright-bar">© OCEANSAPART 2023</section>;
 }

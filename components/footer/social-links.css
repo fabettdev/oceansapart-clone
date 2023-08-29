@@ -1,0 +1,10 @@
+#social-links {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+#social-links .social {
+  width: 1.5rem;
+}

@@ -1,3 +1,39 @@
 #brand-links {
   margin-bottom: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#brand-links nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+#brand-links figure {
+  max-width: 12rem;
+}
+
+#brand-links ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 992px) {
+  #brand-links {
+    font-size: 1.25rem;
+  }
+
+  #brand-links figure {
+    max-width: 16rem;
+  }
+
+  #brand-links ul {
+    gap: 3rem;
+    font-size: 1rem;
+  }
 }
