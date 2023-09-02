@@ -4,10 +4,11 @@ import "./newsletter-form.css";
 // Components
 import Container from "../layout/Container";
 import Button from "../ui/Button";
+import Section from "../layout/Section";
 
 export default function NewsletterForm(): React.ReactElement {
   return (
-    <section id="newsletter-form">
+    <Section id="newsletter-form" className="section bottom lg">
       <Container small>
         <header>
           <div className="title">Iscriviti alla Newsletter</div>
@@ -29,7 +30,7 @@ export default function NewsletterForm(): React.ReactElement {
             <label htmlFor="surprise">
               Vuoi ricevere una sorpresa per il tuo compleanno?
             </label>
-            <input type="text" id="surprise"></input>
+            <input type="text" id="surprise" placeholder="DD.MM"></input>
           </div>
           <div className="privacy">
             <input id="privacy" type="checkbox"></input>
@@ -37,13 +38,13 @@ export default function NewsletterForm(): React.ReactElement {
               Ho letto l'informativa sulla privacy.
             </label>
           </div>
-          <Button label="Iscriviti" />
+          <Button label="Iscriviti" className="newsletter" />
         </form>
         <p className="warning">
           Il seguente form è a solo scopo illustrativo. Nessun dato viene
           raccolto e/o inviato.
         </p>
       </Container>
-    </section>
+    </Section>
   );
 }

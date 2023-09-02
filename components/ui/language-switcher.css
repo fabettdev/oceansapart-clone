@@ -1,0 +1,32 @@
+#language-switcher {
+  padding: 1rem 0;
+  margin: 0 auto;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+#language-switcher li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#language-switcher .single {
+  margin: 1.25rem 0;
+}
+
+#language-switcher .single:last-child {
+  margin-bottom: 0;
+}
+
+#language-switcher .single:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 992px) {
+  #language-switcher {
+    padding: 0;
+    margin: 0;
+  }
+}

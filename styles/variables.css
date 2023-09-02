@@ -3,4 +3,11 @@
   --grey: #f3f3f3;
   --text: #101010;
   --text-grey: #0f0f0f50;
+  --text-grey-dark: #0f0f0f90;
+
+  --font-sm: 0.875rem;
+  --font-md: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.625rem;
+  --font-2xl: 2rem;
 }

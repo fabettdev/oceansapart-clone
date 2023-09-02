@@ -2,6 +2,7 @@
   width: 1.5rem;
   height: 1.5rem;
   position: relative;
+  cursor: pointer;
 }
 
 #mobile-menu-toggler > div {
@@ -35,4 +36,10 @@
 
 #main-header[data-show="true"] #mobile-menu-toggler .top {
   rotate: 45deg;
+}
+
+@media screen and (min-width: 992px) {
+  #mobile-menu-toggler {
+    display: none;
+  }
 }

@@ -1,0 +1,22 @@
+.desktop-sub-item {
+  position: absolute;
+  z-index: 1;
+  top: calc(0% - 0.75rem);
+  left: calc(0% - 0.75rem);
+  display: none;
+  padding: 0.75rem;
+  box-shadow: 0 0 5px 1px #00000010;
+  background-color: #fff;
+}
+
+.desktop-sub-item ul {
+  margin-inline: 1rem;
+  font-weight: 400;
+  margin-top: 2.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop-sub-item a {
+  white-space: nowrap;
+}

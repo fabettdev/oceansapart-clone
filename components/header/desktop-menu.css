@@ -1,0 +1,30 @@
+#desktop-menu {
+  display: none;
+  font-size: var(--font-lg);
+  font-weight: 500;
+  margin: 0 2rem;
+}
+
+#desktop-menu ul {
+  display: flex;
+  gap: 1.25rem;
+}
+
+#desktop-menu li {
+  position: relative;
+}
+
+#desktop-menu li:hover a {
+  position: relative;
+  z-index: 2;
+}
+
+#desktop-menu li:hover > :last-child {
+  display: block;
+}
+
+@media screen and (min-width: 992px) {
+  #desktop-menu {
+    display: block;
+  }
+}

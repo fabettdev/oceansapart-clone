@@ -6,7 +6,7 @@ export default function TopMenu(): React.ReactElement {
   return (
     <nav id="top-menu">
       <Link href={"/dummy"}>
-        10% di sconto su tutto con il codice <strong>HELLO10</strong>
+        100% di sconto su tutto con il codice <strong>SITOCLONE</strong>
       </Link>
     </nav>
   );
