@@ -1,0 +1,15 @@
+.section.top {
+  margin-top: 5rem;
+}
+
+.section.bottom {
+  margin-bottom: 5rem;
+}
+
+.section.top.lg {
+  margin-top: 7.5rem;
+}
+
+.section.bottom.lg {
+  margin-bottom: 7.5rem;
+}

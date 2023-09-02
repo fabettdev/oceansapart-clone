@@ -11,7 +11,7 @@
 #providers .providers-container > * {
   margin: 0 auto;
   min-width: 3rem;
-  max-width: 7.5rem;
+  max-width: 5.5rem;
 }
 
 #providers .provider {

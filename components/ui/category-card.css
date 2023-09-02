@@ -1,0 +1,12 @@
+.category-card {
+  position: relative;
+}
+
+.category-card .cta {
+  position: absolute;
+  left: 0;
+  bottom: 12.5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

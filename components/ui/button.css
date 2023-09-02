@@ -1,3 +1,27 @@
 .button {
-  padding: 5px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 10rem;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.button.big {
+  padding: 0.875rem 1.5625rem;
+  font-size: var(--font-xl);
+}
+
+.button.newsletter {
+  width: 100%;
+  background: var(--brand);
+  font-size: var(--font-lg);
+  padding: 0.5rem 0;
+}
+
+.button.white {
+  background-color: transparent;
+  border: 2px solid #fff;
 }
