@@ -1,0 +1,10 @@
+#products,
+#products section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#products h1 {
+  text-align: center;
+}
