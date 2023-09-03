@@ -35,7 +35,7 @@ export default function NewsletterForm(): React.ReactElement {
           <div className="privacy">
             <input id="privacy" type="checkbox"></input>
             <label id="privacy" htmlFor="privacy">
-              Ho letto l&apos;informativa sulla privacy.
+              Ho letto l&lsquo;informativa sulla privacy.
             </label>
           </div>
           <Button label="Iscriviti" className="newsletter" />
