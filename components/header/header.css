@@ -1,3 +1,4 @@
 #main-header {
   border-bottom: 0.0625rem solid var(--grey);
+  position: relative;
 }
